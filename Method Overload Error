@@ -1,0 +1,19 @@
+// Programmer: Ke'Vaughn Craig
+// Date: December 3, 2018
+// Cause compilation errors, even if the return types are different.
+
+public class MethodOverloadError 
+{
+	// declaration of method square with int argument 
+	public static int square(int x )
+	{
+		return x * x;
+	}
+	
+	// second declaration of method square with int argument 
+	// causes compilation error even though return types are different 
+	public static double square( int y )
+	{
+		return y * y;
+	}
+}// end class MethodOverloadError
