@@ -1,0 +1,29 @@
+// Programmer: Ke'Vaughn Craig
+// Date: December 11, 2018
+// Write a program to sort number and string 
+import java.util.Arrays;
+
+public class Exercise1 
+{
+public static void main(String[] args)
+{
+	// declare an arrays of numbers
+	int[] my_array1 = {
+			1234,2565,2664,
+			21212,54653,515154,42,
+			1456,2165,1457,2456};
+	
+	// declare an array of strings
+	String[] my_array2 = {
+			"JAVA" , "Python" , "C#" , "C++",
+			"HTML" , "JAVA Script" , "Cobolt"};
+	
+	System.out.println(" Orginal numeric array:" + Arrays.toString(my_array1));
+	Arrays.sort(my_array1);
+	System.out.println(" Sorted numeric array:" + Arrays.toString(my_array1));
+	
+	System.out.println(" Orginal numeric array:" + Arrays.toString(my_array2));
+	Arrays.sort(my_array2);
+	System.out.println(" Sorted numeric array:" + Arrays.toString(my_array2));
+}
+}
